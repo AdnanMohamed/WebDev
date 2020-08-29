@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: pink;
+	background-color: rgba(124, 78, 145, .7);
 	margin: 0;
 	padding: 0;
 }
@@ -46,11 +46,21 @@ body {
 .main_div img {
 	border: 4px solid brown;
 	max-width: 100%;
-	/*width: 70%;*/
 }
 
 #About {
 	background-color: rgba(250, 220, 250);
+	height: 90%;
+}
+
+#About > p {
+    padding: 0 10px 15px;
+}
+
+#About > a {
+	display: block;
+	padding: 0 10px;
+	margin-bottom: 20px;
 }
 
 .photo {
@@ -83,8 +93,9 @@ body {
 }
 
 .comment {
-	padding: 4px;
-	text-align: justify-all;
+	padding: 8px;
+	text-align: justify;
+	height: 200px;
 }
 
 .nav {
@@ -93,3 +104,22 @@ body {
 	padding: 5px;
 	margin: 0;
 }
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	flex: 12.5%;
+	padding: 2px;
+}
+
+.column img {
+	width: 100%;
+}
+/*.icons-containers {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}*/
