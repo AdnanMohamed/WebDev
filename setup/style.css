@@ -1,3 +1,10 @@
 body {
-    font-family: 'Grandstander';
+    font-family: 'Arvo', serif;
+    min-height: 100vh;
+}
+
+.underlined-text {
+    height:10px;
+    width:200px;
+    margin: auto;
 }
