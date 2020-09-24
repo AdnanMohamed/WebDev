@@ -8,3 +8,15 @@ body {
     width:200px;
     margin: auto;
 }
+
+.height-80 {
+    min-height: 100vh;
+}
+
+.about-picture {
+    background-image: url("images/sea_view2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
