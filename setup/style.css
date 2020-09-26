@@ -20,3 +20,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.images {
+    height: 250px;
+    min-width: 100%;
+    object-fit: cover;
+}
