@@ -26,3 +26,7 @@ body {
     min-width: 100%;
     object-fit: cover;
 }
+
+.img-card-size {
+    height: 50vh;
+}
