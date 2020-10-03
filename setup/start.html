@@ -98,7 +98,7 @@
           <div class="col-md-6 height-80 about-picture"></div>
 
           <div class="col-md-6 height-80 about-text px-5 justify-content-center align-items-center">
-                      <!-- title start -->
+          <!-- title start -->
           <div class="row text-center">
             <div class="col">
               <h1 class="display-4 text-uppercase mb-0">
@@ -306,10 +306,75 @@
       </div>
   <!-- end of container -->
   </section>
-    <!-- end of team section -->
-    <!-- jquery -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- end of team section -->
+
+  <!-- carousel section -->
+  <section>
+   <div class="container-fluid bg-primary py-5">
+      
+      <!-- title -->
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h1 class="display-4 text-uppercase mb-0">
+            <strong>projects</strong>
+          </h1>
+          <div class="underlined-text bg-danger"></div>
+        </div>
+      </div>
+      
+      <!-- end of title -->
+     
+      <div class="row">
+       <div class="col-md-8 mx-auto">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/sea_view.jpg" alt="sea view" class="d-block w-100">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="images/pyramids.jpg" alt="Pyramids" class="d-block w-100">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="images/sea_view2.jpg" alt="Airplane" class="d-block w-100">
+            </div>
+          </div>
+        
+          <!-- Left and right controls -->
+          <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        <!-- end carousel -->
+       </div>
+       <!-- end column -->
+     </div>
+     <!-- end row -->
+   </div>
+   <!-- end container -->
+  </section>
+  <!-- end of carousel section -->
+
+  <!-- Filler section -->
+
+  <!-- end of Filler section -->
+    
+  <!-- jquery -->
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
