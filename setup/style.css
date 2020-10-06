@@ -27,6 +27,12 @@ body {
     object-fit: cover;
 }
 
+.carousel-images {
+    height: 80vh;
+    min-width: 100%;
+    object-fit: cover;
+}
+
 .img-card-size {
     height: 50vh;
 }
@@ -37,4 +43,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.blog-underline {
+    height: 14px;
+    width: 200px;
+}
+
+.size-blog-images {
+    height: 70%;
+    width: 100%;
+}
+
+.blog-images {
+    height: 40vh;
+    min-width: 100%;
+    object-fit: cover;
 }
