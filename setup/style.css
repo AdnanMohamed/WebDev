@@ -37,7 +37,7 @@ body {
     height: 50vh;
 }
 
-#filler {
+#filler, #progress {
     background-color: linear-gradient(to right, rgba(25, 20, 20, 0), rgba(0, 0, 0, 255));
     background-image: url("images/city1.jpg");
     background-repeat: no-repeat;
