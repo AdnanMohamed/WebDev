@@ -50,13 +50,14 @@ body {
     width: 200px;
 }
 
-.size-blog-images {
-    height: 70%;
-    width: 100%;
-}
-
 .blog-images {
     height: 40vh;
     min-width: 100%;
+    object-fit: cover;
+}
+
+.review-image {
+    height: 40vh;
+    min-width: 50%;
     object-fit: cover;
 }
