@@ -15,7 +15,37 @@
   </head>
 <body>
     
-    <header id="header" class="bg bg-dark">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+    <!-- Brand -->
+    <a class="navbar-brand text-uppercase" href="#">First Website</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="#home">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="#skills">skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="#about">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-capitalize" href="#projects">projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav> 
+   <!-- end of navbar -->
+   <!-- header -->
+    <header id="home" class="bg bg-dark p-5 mt-4">
       <div class="container">
         <div class="row height align-items-center">
           <div class="col">
@@ -36,7 +66,7 @@
     <!-- end of header -->
 
     <!-- start of skills section -->
-    <section class="p-5 bg-white">
+    <section id="skills" class="p-5 bg-white">
       <div class="container">
         <div class="row text-center">
           <div class="col">
